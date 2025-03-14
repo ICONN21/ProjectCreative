@@ -90,8 +90,8 @@
 // export default Login;
 import { useState } from "react";
 import { useMutation } from "@apollo/client";
-import { LOGIN_USER } from "../utils/mutations";
-import Auth from "../utils/auth";
+import { LOGIN_USER } from "../../src/utils/mutations";
+import Auth from "../../src/utils/auth";
 import { Link } from "react-router-dom";
 
 const Login = () => {
